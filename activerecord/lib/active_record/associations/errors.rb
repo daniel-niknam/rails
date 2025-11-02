@@ -174,7 +174,7 @@ module ActiveRecord
     end
   end
 
-  class AssociationModelTypeError < ActiveRecordError
+  class AssociationModelTypeError < ActiveRecordError # :nodoc:
   end
 
   class ThroughCantAssociateThroughHasOneOrManyReflection < ActiveRecordError # :nodoc:
